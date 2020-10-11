@@ -10,7 +10,7 @@ import {BrowserRouter as Router, Route,Switch} from 'react-router-dom'
 function App() {
   return (
     <Router>
-      <Route exact path="/" component={Login} />
+      <Route exact path="/login" component={Login} />
       <Route exact path="/register" component={Signup} />
       <Route exact path="/task" component={Task} />
       <Route exact path="/home" component={Header} />

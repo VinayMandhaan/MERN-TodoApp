@@ -54,7 +54,7 @@ const Signup = (props) => {
                 <div class="form-group">
                     <button onClick={()=>onSignup()} class="btn btn-primary btn-block" type="submit">Sign Up</button>
                 </div>
-                <Link to="/"><a class="already">You already have an account? Login here.</a></Link>
+                <Link to="/login"><a class="already">You already have an account? Login here.</a></Link>
             </div>
         </div>
     </div>

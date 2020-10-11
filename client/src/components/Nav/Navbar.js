@@ -5,7 +5,7 @@ const Header = (props) => {
 
     const logout = () => {
         localStorage.clear()
-        props.history.push('/')
+        props.history.push('/login')
     }
     return(
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">

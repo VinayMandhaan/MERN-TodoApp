@@ -93,7 +93,7 @@ const Task = (props) => {
     var token = localStorage.getItem('token')
       console.log(localStorage.getItem('token'))
       if(!token){
-          props.history.push('/')
+          props.history.push('/login')
       }
       getTasks()
   },[])
