@@ -20,6 +20,7 @@ app.get('/',(req,res)=>{
 
 app.use('/api/auth',require('./controller/api/auth'))
 app.use('/api/user',require('./controller/api/user'))
+app.use('/api/task',require('./controller/api/task'))
 
 app.listen(PORT, ()=>{
     console.log(`Server Started on Port ${PORT}`)
