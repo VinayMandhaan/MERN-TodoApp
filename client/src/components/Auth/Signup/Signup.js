@@ -20,7 +20,7 @@ const Signup = (props) => {
                }
            }).then(res=>{
                console.log(res)
-               props.history.push('/')
+               props.history.push('/login')
            })
         }catch(err){
             console.log(err)
