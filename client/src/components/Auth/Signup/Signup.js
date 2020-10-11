@@ -11,7 +11,7 @@ const Signup = (props) => {
         try{
            await axios({
                method:'post',
-               url:'http://localhost:5000/api/user',
+               url:'/api/user',
     
                data:{
                    username:username,

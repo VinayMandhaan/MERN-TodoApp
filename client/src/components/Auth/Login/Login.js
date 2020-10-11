@@ -12,7 +12,7 @@ const Login = (props) => {
     try{
        await axios({
            method:'post',
-           url:'http://localhost:5000/api/auth',
+           url:'/api/auth',
 
            data:{
                email:email,
